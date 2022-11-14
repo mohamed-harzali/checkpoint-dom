@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game shop</title>
+    <link rel="stylesheet" href="styless.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+
+  
+
+    <nav class="navbar">
+
+         <div class="shopping">
+
+             <h1>
+                game shop
+             </h1>
+                
+         </div>
+
+    </nav>
+
+    <div class="boxes">
+
+        <div class="box1">
+            <img src="https://www.tunisianet.com.tn/91484-large/souris-gamer-usb-eweadn-t05-noir.jpg" alt="">
+            <h1> Souris Gamer </h1>
+        </div>
+
+        <div class="box2">
+            <img src="https://www.wiki.tn/53570-large_mobi_default/ecran-gaming-asus-vg24vq-24-144hz.jpg" alt="">
+            <h1> Ecran Gamer </h1>
+            
+        </div>
+
+        <div class="box3">
+            <img src="https://www.tunisianet.com.tn/131025-large/clavier-gaming-retroeclaire-spirit-of-gamer-pro-k5.jpg" alt="">
+            <h1> Clavier Gamer </h1>
+        </div>
+
+    </div>
+
+    <div class="souris">
+            <td>souris</td>
+            <td class="number">99dt</td>
+
+        <td> 
+             <div id='main'>
+                <button class="btnplus" >+</button>
+                <span class='counter' >0</span>
+                <button class="btnminus" >-</button>
+             </div>
+        </td>
+
+        <td>
+            <div class="container">
+                <i class="far fa-heart js-heart heart"></i> 
+            </div>
+        </td>
+        <td>
+            <br>
+            <input type="button" value="Delete" onclick="deleteRow(this)">
+        </td>
+    </div>
+
+    <div class="ecran">
+        <td>ecran</td>
+        <td class="number">599dt</td>
+
+        <td> 
+            <div id='main'>
+                
+                <button class="btnplus" >+</button>
+                <span class='counter' >0</span>
+                <button class="btnminus" >-</button>
+            </div>
+        </td>
+
+        <td>
+            <div class="container">
+                <i class="far fa-heart js-heart heart"></i> 
+            </div>
+
+         </td>
+
+        <td>
+            <br>
+            <input type="button" value="Delete" onclick="deleteRow(this)">
+         </td>
+
+    </div>
+
+    <div class="clavier">
+
+        <td>clavier</td>
+        <td class="number">149dt</td>
+
+        <td> 
+            
+            <div id='main'>
+                <button class="btnplus" >+</button>
+                <span class='counter' >0</span>
+                <button class="btnminus" >-</button>
+            </div>
+
+        </td>
+
+        <td>
+
+            <div class="container">
+                <i class="far fa-heart js-heart heart"></i> 
+            </div>
+
+        </td>
+
+        <td>
+            <br>
+            <input type="button" value="Delete" onclick="deleteRow(this)">
+        </td>
+
+    </div>
+
+    <thead>
+        <tr>
+            <th>Total   </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span id='tot'>0 dt</span></td>
+        </tr>
+    </tbody>
+
+
+<script src='script.js' ></script>
+</body>
+</html>
